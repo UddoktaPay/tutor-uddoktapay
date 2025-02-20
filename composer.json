@@ -1,0 +1,32 @@
+{
+    "name": "uddoktapay/tutor-uddoktapay",
+    "description": "UddoktaPay payment gateway for Tutor LMS",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "UddoktaPay\\Tutor\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "UddoktaPay",
+            "email": "support@uddoktapay.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^3.0"
+    },
+    "scripts": {
+        "phpcs": "phpcs",
+        "phpcbf": "phpcbf"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

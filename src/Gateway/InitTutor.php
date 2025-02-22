@@ -97,7 +97,7 @@ final class InitTutor {
 			'is_installed'         => true,
 			'is_active'            => true,
 			'icon'                 => '',
-			'support_subscription' => false,
+			'support_subscription' => true,
 			'fields'               => array(
 				array(
 					'name'  => 'display_name',
